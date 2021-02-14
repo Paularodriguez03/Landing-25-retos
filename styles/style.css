@@ -67,6 +67,20 @@ body {
     color: black;
 }
 
+.tab.active p {
+    margin-left: 10px;
+    max-width: 200px;
+    transition: max-width 0.4s linear;
+}
+
+.tab a {
+    font-weight: bold;
+    overflow: hidden;
+    max-width: 0;
+    text-decoration: none;
+    color: black;
+}
+
 .tab.active a {
     margin-left: 10px;
     max-width: 200px;
